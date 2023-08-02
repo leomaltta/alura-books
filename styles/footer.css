@@ -1,0 +1,15 @@
+hr {
+    margin: 0;
+}
+
+.footer {
+    color:var(--dark-blue);
+    padding: 1em;
+}
+
+.footer_titles {
+    display: flex;
+    flex-direction: column;
+    gap: .3em;
+    font-weight: 500;
+}

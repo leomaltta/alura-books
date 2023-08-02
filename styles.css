@@ -1,0 +1,22 @@
+@import url("styles/header.css");
+@import url("styles/banner.css");
+@import url("styles/slider.css");
+@import url("styles/topics.css");
+@import url("styles/contact.css");
+@import url("styles/footer.css");
+
+:root {
+    --backgroud-color: #EBECEE;
+    --white: #FFFFFF;
+    --orange: #eb9800;
+    --blue-gradient: var(--blue-degrade, linear-gradient(160deg, #002F52 0%, #326589 100%));
+    --main-font: 'Poppins', sans-serif;
+    --dark-blue: #002F52;
+}
+
+body {
+    background-color: var(--backgroud-color);
+    font-family: var(--main-font);
+    font-weight: 400;
+    font-size: 1rem;
+}
