@@ -12,6 +12,8 @@
     --blue-gradient: var(--blue-degrade, linear-gradient(160deg, #002F52 0%, #326589 100%));
     --main-font: 'Poppins', sans-serif;
     --dark-blue: #002F52;
+    --second-font: 'Josefin Sans', sans-serif;
+    --black: #000000;
 }
 
 body {

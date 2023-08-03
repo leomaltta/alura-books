@@ -85,3 +85,29 @@
 .details_img {
     border-radius: 15px;
 }
+
+@media screen and (min-width: 1024px) {
+    .slider_title {
+        font-size: 26px;
+        padding: 1em 0 1em 0;
+        align-items: center;
+    }
+
+    .swiper-pagination {
+        margin: 2em 0 3em 0;
+    }
+
+    .swiper {
+        width: 60%;
+    }
+
+    .swiper-button-next, .swiper-button-prev {
+        display: block;
+        top: 60%;
+    }
+
+    .card {
+        width: 40%;
+        margin: 2em auto;
+    }
+}
