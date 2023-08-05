@@ -13,3 +13,43 @@ hr {
     gap: .3em;
     font-weight: 500;
 }
+
+.footer-list {
+    display: none;
+}
+
+@media screen and (min-width: 1024px) {
+    .footer {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .footer-list_item {
+        display: flex;
+        align-items: center;
+        margin: 0.6em 0;
+    }
+
+    .footer-list_link {
+        color: var(--grey);
+        text-decoration: none;
+        margin-left: 0.3em;
+    }
+
+    .footer-list_item_img {
+        padding: 0.6em;
+    }
+
+    .footer-list_title {
+        font-size: 16px;
+        color: var(--light-grey);
+    }
+
+    .footer_title {
+        font-size: 24px;
+    }
+
+    .footer-list {
+        display:block;
+    }
+}

@@ -75,7 +75,9 @@
 
     .container_title {
         font-weight: 400;
-        display: block;
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
 
     .container_title-bold {
