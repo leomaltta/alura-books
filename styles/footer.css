@@ -53,3 +53,14 @@ hr {
         display:block;
     }
 }
+
+@media screen and (min-width: 1728px) {
+    .footer-list {
+        border-left: 1px solid var(--light-grey);
+        padding-left: 1em;
+    }
+
+    .footer {
+        padding: 3em 0;
+    }
+}

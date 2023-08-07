@@ -17,7 +17,7 @@
     <header class="header">
         <div class="container">
             <input type="checkbox" id="menu" class="container_button">
-            <label for="menu"> 
+            <label for="menu" class="container_label" > 
                 <span class="header_menu container_img"></span>
             </label>
             <ul class="menu-list">
@@ -44,7 +44,7 @@
 
         <ul class="options">
             <input type="checkbox" id="options_menu" class="options_buttons">
-            <label for="options_menu">
+            <label for="options_menu" class="options_label" >
                 <li class="options_item">Categorias</li>
             </label>
             
@@ -72,8 +72,14 @@
 
         <div class="container">
             <a class="container_img container_img-transparent" href="#"><img src="./assets/Favoritos.svg" alt="Favoritos" ></a>
-            <a class="container_img" href="#"><img src="./assets/Sacola.svg" alt="Sacola"></a>
-            <a class="container_img" href="#"><img src="./assets/Usuario.svg" alt="Usuário"></a>
+            <a class="container_img" href="#">
+                <img class="container_img_mybag" src="./assets/Sacola.svg" alt="Sacola">
+                <p class="container_img_text"> Minha Sacola</p>
+            </a>
+            <a class="container_img" href="#">
+                <img class="container_img_myprofile" src="./assets/Usuario.svg" alt="Usuário">
+                <p class="container_img_text"> Meu Perfil</p>
+            </a>
         </div>
     </header>
     <section class="banner">
@@ -84,7 +90,8 @@
     <section class="slider">
         <h2 class="slider_title">Novos lançamentos</h2>
         <!-- Slider main container -->
-<div class="swiper">
+        <div class="slider_container">  
+        <div class="swiper">
         <!-- If we need pagination -->
         <div class="swiper-pagination"></div>
   
@@ -123,11 +130,13 @@
                 <a href="#" class="buttons_anchor">Saiba mais</a>
             </div>
         </div>
+    </div>
 
     </section>
     <section class="slider slider2">
         <h2 class="slider_title">Mais vendidos</h2>
         <!-- Slider main container -->
+        <div class="slider_container">
 <div class="swiper">
         <!-- If we need pagination -->
         <div class="swiper-pagination"></div>
@@ -168,7 +177,7 @@
                 <a href="#" class="buttons_anchor">Saiba mais</a>
             </div>
         </div>
-
+    </div>
     </section>
 
     <section class="topics">
